@@ -1,0 +1,29 @@
+---
+layout: default
+title: Home
+page_name: home
+---
+
+<section class="challenges-section pt-5">
+  <div class="container">
+    <div class="row">
+      {% for workshop in site.data.workshops %}
+        <div class="col-md-4">
+          <div class="card shadow">
+            <div class="image-wrapper">
+              <a href="{{ workshop.url }}">
+                <img src="{{ site.image_base_url }}/{{ workshop.thumbnail }}" class="card-img-top" alt="Workshop Thumbnail">
+              </a>
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">{{ workshop.title }}</h5>
+              <p class="card-text">
+                {{ workshop.description }}
+              </p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

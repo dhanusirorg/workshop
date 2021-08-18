@@ -1,0 +1,113 @@
+/* Custom SCSS */
+$color-primary: #ddd;
+
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-size: 15.5px;
+}
+main {
+  line-height: 26px;
+  margin-top: 60px;
+}
+code, kbd, pre, samp {
+  font-family: 'Inconsolata', SFMono-Regular,Menlo,Monaco,Consolas,monospace;
+  font-size: 15px;
+  line-height: 22px;
+}
+ul, ol, table, blockquote p {
+  line-height: 25px;
+}
+a, a:hover {
+  text-decoration: none !important;
+}
+.blue {
+  color: #175EEE;
+}
+.red {
+  color: #EE2020
+}
+.green {
+  color: #0AAA50;
+}
+.page-margin {
+  margin-top: 70px;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+#sticky-footer {
+  flex-shrink: none;
+}
+pre {
+  padding: 10px;
+}
+.highlight pre {
+  margin: 0;
+  border: 0;
+}
+.mt-7 {
+  margin-top: 4rem;
+}
+.embed-img {
+  height: 400px;
+  margin-left: 0;
+  box-shadow: 0 .25rem .5rem rgba(0,0,0,.15);
+}
+
+// credits
+.credits {
+  background-color: #555;
+  color: #fff;
+  padding: 0.5rem 0;
+
+  p {
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+  a:link {
+    color: #a8d5ff;
+  }
+}
+
+// footer css
+.footer-section {
+  background: #333;
+  padding: 0.25rem 0 0.125rem 0;
+
+  .footer-text {
+    font-size: 24px;
+    color: #fff;
+
+    span {
+      font-weight: 600;
+    }
+  }
+  .copyright {
+    font-size: 13px;
+    vertical-align: middle;
+    line-height: 25px;
+
+    a {
+      color: #a8d5ff;
+      text-decoration: underline;
+    }
+  }
+  .footer-social {
+    a {
+      font-size: 18px;
+      display: inline-block;
+      color: #fff;
+    }
+  }
+}
+
+
+@import "syntax-highlighting";
+@import "lesson";
+@import "home";
+@import "responsive";

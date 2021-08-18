@@ -1,0 +1,107 @@
+// header
+header {
+  position: relative;
+
+  .navbar {
+    background-color: #fff;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar {
+    .brand {
+      font-size: 1.5rem;
+      color: #555;
+
+      img {
+        height: 40px;
+      }
+      span {
+        font-weight: 600;
+      }
+    }
+    .navbar-nav .nav-item .nav-link {
+      padding: 1.2rem 1.5rem;
+      font-size: 15px;
+      font-weight: 300;
+      color: #333;
+    }
+    .navbar-nav .nav-item.active .nav-link,
+      .navbar-nav .nav-item:hover .nav-link {
+      background-color: #94908d;
+      color: #fff;
+    }
+    .navbar-toggler {
+      border: 1px solid #777;
+      font-size: 20px;
+      padding: 0.125rem 0.25rem;
+    }
+  }
+}
+
+.challenges-section {
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .card {
+    border: 0;
+
+    .image-wrapper {
+      max-width: 100%;
+      overflow: hidden;
+
+      img {
+        margin-bottom: 0;
+        width: 100%;
+        transition: transform 0.3s ease 0s;
+        border-radius: 10px;
+      }
+      img:hover {
+        transform: scale(1.1);
+      }
+    }
+    .card-body {
+      padding: 1.25rem 0;
+
+      .card-title {
+        color: #333;
+      }
+      .card-text {
+        color: #555;
+      }
+      .challenge-info-header {
+        display: flex;
+        justify-content: space-between;
+
+        .tag-badge, .difficulty-badge {
+          color: #fff;
+          font-size: 11px;
+          background-color: #777;
+          padding: 0.25rem 0.5rem;
+          border-radius: 5px;
+          text-transform: uppercase;
+        }
+        .difficulty-badge {
+          color: blue;
+          background-color: #fff;
+          border: 1px solid #777;
+        }
+      }
+
+    }
+
+  }
+}
+
+@media (max-width: 500px) {
+  header .navbar .brand {
+    font-size: 1.2rem;
+
+    img {
+      height: 35px;
+    }
+  }
+  .section-header h1 {
+    font-size: 2rem;
+  }
+}

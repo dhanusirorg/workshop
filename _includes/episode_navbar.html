@@ -1,0 +1,27 @@
+{% include base_path.html %}
+
+{% comment %}
+  Navigation bar for challenge.
+{% endcomment %}
+
+<div class="lesson-navbar">
+  <h3 class="text-left">
+    {% if page.previous %}
+      <a href="{{ relative_root_path }}{{ page.previous.url }}"><i class='bx bxs-chevron-left'></i></a>
+    {% else %}
+      <a href="{{ relative_root_path }}/{{ challenge_root_path }}"><i class='bx bxs-chevron-left'></i></a>
+    {% endif %}
+  </h3>
+  <h3>
+    {% if include.episode_navbar_title %}
+      <a href="{{ relative_root_path }}/{{ challenge_root_path }}/">Workshop Overview</a>
+    {% endif %}
+  </h3>
+  <h3 class="text-right">
+    {% if page.next %}
+      <a href="{{ relative_root_path }}{{ page.next.url }}"><i class='bx bxs-chevron-right'></i></a>
+    {% else %}
+      <a href="{{ relative_root_path }}/{{ challenge_root_path }}/"><i class='bx bxs-chevron-up'></i></a>
+    {% endif %}
+  </h3>
+</div>

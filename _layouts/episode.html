@@ -1,0 +1,22 @@
+---
+layout: default
+page_name: workshop
+---
+
+<section class="lesson-page">
+  <div class="container">
+    {% include episode_navbar.html episode_navbar_title=true %}
+    <section>
+      {% include episode_title.html %}
+      {% unless page.break %}
+        {% include episode_overview.html %}
+        {{content}}
+
+        {% if page.keypoints.size > 0 %}
+          {% include episode_keypoints.html %}
+        {% endif %}
+      {% endunless %}
+    </section>
+    {% include episode_navbar.html episode_navbar_title=false %}
+  </div>
+</section>

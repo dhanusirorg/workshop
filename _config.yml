@@ -1,0 +1,55 @@
+title: BR Gurukul
+title_htm: >-
+  <span class="blue">B</span><span class="red">R</span>&nbsp;<span class="green">G</span>urukul
+year: 2021
+email: brg@brgurukul.org
+description: >-
+  Workshop syllabus for HTML and CSS conducted by BRG
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://workshops.brgurukul.org"
+image_base_url: /assets/img
+thumbnail: thumbnail.jpg
+author: BRG
+author_url: https://freelancerbrg.com
+
+twitter_username: mentorbrg
+github_username:  coolbrg
+
+google_analytics: G-RMJDG09LZT
+
+permalink: /:title
+
+collections:
+  html-css:
+    output: true
+    permalink: /html-css/:title
+
+contacts:
+  facebook:
+    url: https://www.facebook.com/brgurukul
+    label: Facebook
+    class: bx bxl-facebook
+  twitter:
+    url: https://twitter.com/coolbrg/
+    label: Twitter
+    class: bx bxl-twitter
+    username: "@coolbrg"
+  github:
+    url: https://github.com/brgurukul/
+    label: GitHub
+    class: bx bxl-github
+  linkedin:
+    url: https://www.linkedin.com/company/brgurukul
+    label: LinkdIn
+    class: bx bxl-linkedin
+  email:
+    url: mailto:brg@brgurukul.org
+    label: Email
+    class: bx bx-mail-send
+  # youtube:
+  #   url: https://www.youtube.com/channel/UC8p8tlnY5fykNYv2vZHvQDg
+  #   label: YouTube Channel
+  #   class: bx bxl-youtube
+
+# Build settings
+markdown: kramdown
