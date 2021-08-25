@@ -23,6 +23,9 @@ collections:
   html-css:
     output: true
     permalink: /html-css/:title
+  docker:
+    output: true
+    permalink: /docker/:title
 
 contacts:
   facebook:

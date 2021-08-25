@@ -4,7 +4,7 @@ $(function(){
 
   // Make all tables striped by default.
   $(".lesson-page table").addClass("table table-hover table-responsive");
-  $(".lesson-page table thead").addClass("thead-dark");
+  $(".lesson-page table thead").addClass("thead-light");
 
   // Handle foldable challenges and solutions (on click and at start).
   $(".solution").click(function(event) {

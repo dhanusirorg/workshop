@@ -10,7 +10,7 @@
 
   <table class="table table-striped table-bordered">
 
-    {% assign reversed_episodes = site.html-css %}
+    {% assign reversed_episodes = site[include.name] %}
     {% for episode in reversed_episodes %}
       {% if episode.start %} {% comment %} Starting a new day? {% endcomment %}
         {% assign day = day | plus: 1 %}

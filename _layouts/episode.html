@@ -9,7 +9,9 @@ page_name: workshop
     <section>
       {% include episode_title.html %}
       {% unless page.break %}
-        {% include episode_overview.html %}
+        {% if page.questions or page.objectives %}
+          {% include episode_overview.html %}
+        {% endif %}
         {{content}}
 
         {% if page.keypoints.size > 0 %}
