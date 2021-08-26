@@ -2,8 +2,8 @@
 layout: episode
 title: Basic Commands
 date: 2021-08-03 01:01:01 +0530
-teaching: 25
-exercises: 10
+teaching: 20
+exercises: 5
 objectives:
 - Understand commonly used Docker commands
 keypoints:

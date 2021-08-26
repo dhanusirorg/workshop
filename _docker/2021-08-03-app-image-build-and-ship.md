@@ -2,8 +2,8 @@
 layout: episode
 title: Build & Ship App Image
 date: 2021-08-04 01:01:01 +0530
-teaching: 15
-exercises: 10
+teaching: 20
+exercises: 5
 objectives:
 - Understand how to build application image
 - How to ship application image for use
@@ -22,8 +22,8 @@ least two container to properly run the application.
 ## Building Application Image
 
 - Get the application source code.
-  - Visit [Application Source Code](https://gitlab.com/nanuchi/techworld-js-docker-demo-app){:target="_blank"}.
-  - Or you can clone the repo as `git clone https://gitlab.com/nanuchi/techworld-js-docker-demo-app`
+  - Download zip or tar file from [here](https://github.com/brgurukul/docker-nginx-app/releases/tag/v1.0){:target="_blank"} and unzip in your machine
+  - Or you can clone the repo as `git clone https://github.com/brgurukul/docker-nginx-app`
 - Enter into the `docker-nginx-app` directory
 - Check the Dockerfile:
 
