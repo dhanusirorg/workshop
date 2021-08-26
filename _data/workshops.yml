@@ -1,6 +1,6 @@
-- title: HTML and CSS Workshop for Beginners
-  url: /html-css/
-  thumbnail: html-css/thumbnail.jpg
 - title: Docker Workshop for Beginners
   url: /docker/
   thumbnail: docker/thumbnail.jpg
+- title: HTML and CSS Workshop for Beginners
+  url: /html-css/
+  thumbnail: html-css/thumbnail.jpg
