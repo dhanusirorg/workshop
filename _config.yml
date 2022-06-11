@@ -1,12 +1,12 @@
-title: BR Gurukul
-title_htm: >-
-  <span class="blue">B</span><span class="red">R</span>&nbsp;<span class="green">G</span>urukul
-year: 2021
-email: brg@brgurukul.org
+title: Dhanu Gurung Workshops
+title: >-
+  Dhanu Gurung
+year: 2022
+email: budhramgurung@gmail.com
 description: >-
-  Workshop syllabus for HTML and CSS conducted by BRG
+  Workshop syllabus conducted by Dhanu Gurung
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://workshops.brgurukul.org"
+url: "https://workshop.dhanugurung.com"
 image_base_url: /assets/img
 thumbnail: thumbnail.jpg
 author: BRG
@@ -29,24 +29,24 @@ collections:
 
 contacts:
   facebook:
-    url: https://www.facebook.com/brgurukul
+    url: https://www.facebook.com/mentordhanu
     label: Facebook
     class: bx bxl-facebook
   twitter:
-    url: https://twitter.com/coolbrg/
+    url: https://twitter.com/mentordhanu/
     label: Twitter
     class: bx bxl-twitter
-    username: "@coolbrg"
+    username: "@mentordhanu"
   github:
-    url: https://github.com/brgurukul/
+    url: https://github.com/coolbrg/
     label: GitHub
     class: bx bxl-github
   linkedin:
-    url: https://www.linkedin.com/company/brgurukul
+    url: https://www.linkedin.com/in/mentordhanu
     label: LinkdIn
     class: bx bxl-linkedin
   email:
-    url: mailto:brg@brgurukul.org
+    url: mailto:budhramgurung@gmail.com
     label: Email
     class: bx bx-mail-send
   # youtube:

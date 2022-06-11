@@ -1,8 +1,8 @@
 <!-- navbar -->
 <nav class="navbar fixed-top shadow-sm navbar-expand-lg">
   <div class="container">
-    <a href="https://brgurukul.org" class="brand"><img src="{{ site.image_base_url }}/logo.png" alt="BR Gurukul">
-      <span>{{ site.title_htm }}</span>
+    <a href="https://dhanugurung.com/" class="brand">
+      <span>{{ site.title }}</span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <i class='bx bx-menu'></i>
@@ -12,7 +12,7 @@
       <ul class="navbar-nav ml-auto">
 
         <li class="nav-item{% if page.page_name == 'home' %} active{% endif %}">
-          <a class="nav-link" href="/">Home</a>
+          <a class="nav-link" href="{{ site.url }}">Home</a>
         </li>
 
         <div class="dropdown nav-item{% if page.layout == 'episode' or page.page_name == 'workshop' %} active{% endif %}">
@@ -20,14 +20,12 @@
             Workshops
           </a>
 
-          <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item" href="{{ site.url }}/html-css/">HTML and CSS</a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+            {% for workshop in site.data.workshops %}
+              <a class="dropdown-item" href="{{ site.url }}{{ workshop.url }}">{{ workshop.title }}</a>
+            {% endfor %}
           </div>
         </div>
-
-        <li class="nav-item{% if page.page_name == 'license' %} active{% endif %}">
-          <a class="nav-link" href="/license">License</a>
-        </li>
       </ul>
     </div>
   </div>
