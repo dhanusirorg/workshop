@@ -1,11 +1,16 @@
 ---
 layout: default
-title: Home
+title: Workshops
 page_name: home
 ---
 
-<section class="challenges-section pt-5">
+<section class="workshops">
   <div class="container">
+    <div class="back-link">
+      <a href="https://dhanugurung.com/">
+        <img src="{{ site.image_base_url }}/left-arrow.png" alt="Dhanu Gurung Back Link" /> <span class="caption">Back to Main Site</span>
+      </a>
+    </div>
     <div class="row">
       {% for workshop in site.data.workshops %}
         <div class="col-md-4">
@@ -16,7 +21,7 @@ page_name: home
               </a>
             </div>
             <div class="card-body text-center">
-              <h5 class="card-title">{{ workshop.title }}</h5>
+              <h5 class="card-title px-4">{{ workshop.title }}</h5>
               <p class="card-text">
                 {{ workshop.description }}
               </p>

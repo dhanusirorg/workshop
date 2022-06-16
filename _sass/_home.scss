@@ -9,20 +9,15 @@ header {
   }
   .navbar {
     .brand {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       color: #555;
+      font-weight: 700;
+      font-family: "Playfair Display", "Poppins", sans-serif;
+      line-height: 24px;
 
       img {
-        height: 40px;
+        height: 36px;
       }
-      span {
-        font-weight: 600;
-      }
-    }
-    .brand {
-      font-size: 1.8rem;
-      color: #333;
-      font-family: "DM Serif Display", "Poppins", sans-serif;
     }
     .navbar-nav .nav-item .nav-link {
       padding: 1.2rem 1.5rem;
@@ -43,7 +38,19 @@ header {
   }
 }
 
-.challenges-section {
+.workshops {
+  .back-link {
+    img {
+      margin-left: 0;
+      height: 50px;
+      display: inline-block;
+    }
+    .caption {
+      color: #555;
+      font-weight: 1.8rem;
+      margin-left: 10px;
+    }
+  }
   .section-header {
     display: flex;
     justify-content: space-between;
@@ -105,6 +112,12 @@ header {
     img {
       height: 35px;
     }
+  }
+  .workshops {
+    margin-bottom: 3rem;
+  }
+  .workshops .card {
+    margin-bottom: 2rem;
   }
   .section-header h1 {
     font-size: 2rem;
