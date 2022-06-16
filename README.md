@@ -1,3 +1,3 @@
-# Coding Challenges
+# Dhanu Gurung Workshops Content
 
-The repo powering [Coding Challenges](https://codingchallenges.org).
+Repo for the Dhanu Gurung workshops.
