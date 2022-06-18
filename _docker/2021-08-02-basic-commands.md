@@ -68,6 +68,22 @@ $ docker ps
 $ docker exec -it deb-postgres bash
 root@83b53844c490:/# su postgres
 postgres@83b53844c490:/$ psql
+>
+# --- playaround with database ----
+CREATE DATABASE dhanu; # create database
+\c dhanu; # use database
+CREATE TABLE users (
+  person_id serial PRIMARY KEY,
+  username VARCHAR(50) UNIQUE NOT NULL,
+  password VARCHAR(50) NOT NULL,
+  email  VARCHAR(255) UNIQUE NOT NULL
+); # create users table
+INSERT INTO users(username, password, email)
+VALUES ('admin', 'admin123', 'admin@dhanugurung.com');
+INSERT INTO users(username, password, email)
+VALUES ('foo', 'foo123', 'foo@dhanugurung.com');
+# --- end of playing ----
+>
 \q # exit from psql
 exit # exit from postgres user
 exit # exit from root
