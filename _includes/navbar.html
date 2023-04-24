@@ -1,8 +1,9 @@
 <!-- navbar -->
 <nav class="navbar fixed-top shadow-sm navbar-expand-lg">
   <div class="container">
-    <a href="{{ site.mainsite }}" class="brand">
+    <a href="/" class="brand">
       <img src="{{ site.image_base_url }}/logo.png" alt="Dhanu Sir Logo" />
+      <span class="text-primary">Workshops</span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <i class='bx bx-menu'></i>
@@ -13,6 +14,10 @@
 
         <li class="nav-item{% if page.page_name == 'home' %} active{% endif %}">
           <a class="nav-link" href="{{ site.url }}">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.url }}">Dhanu Sir Website</a>
         </li>
 
         <div class="dropdown nav-item{% if page.layout == 'episode' or page.page_name == 'workshop' %} active{% endif %}">
