@@ -1,3 +1,3 @@
-# Dhanu Gurung Workshops Content
+# Dhanu Sir Workshops Content
 
-Repo for the Dhanu Gurung workshops.
+Repo for the Dhanu Sir workshops.

@@ -1,19 +1,20 @@
-title: Dhanu Gurung
-year: 2022
-email: budhramgurung@gmail.com
+title: Dhanu Sir Workshops
+year: 2023
+email: dhanusirofficial@gmail.com
 description: >-
-  Workshop syllabus conducted by Dhanu Gurung
+  Workshops conducted by Dhanu Sir
+mainsite: "https://dhanusir.com"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://workshop.dhanugurung.com"
+url: "https://workshop.dhanusir.com"
 image_base_url: /assets/img
 thumbnail: thumbnail.jpg
-author: BRG
+author: Dhanu sir
 author_url: https://freelancerbrg.com
 
-twitter_username: mentorbrg
-github_username:  coolbrg
+twitter_username: dhanumentor
+github_username:  dhanusir
 
-google_analytics: G-RXN8QR661J
+google_analytics:
 
 permalink: /:title
 
@@ -27,30 +28,30 @@ collections:
 
 contacts:
   facebook:
-    url: https://www.facebook.com/mentordhanu
+    url: https://www.facebook.com/dhanusir
     label: Facebook
     class: bx bxl-facebook
   twitter:
-    url: https://twitter.com/mentordhanu/
+    url: https://twitter.com/dhanumentor/
     label: Twitter
     class: bx bxl-twitter
-    username: "@mentordhanu"
+    username: "@dhanumentor"
   github:
-    url: https://github.com/coolbrg/
+    url: https://github.com/dhanusir/
     label: GitHub
     class: bx bxl-github
   linkedin:
-    url: https://www.linkedin.com/in/mentordhanu
+    url: https://www.linkedin.com/in/dhanusir
     label: LinkdIn
     class: bx bxl-linkedin
   email:
-    url: mailto:budhramgurung@gmail.com
+    url: mailto:dhanusirofficial@gmail.com
     label: Email
     class: bx bx-mail-send
-  # youtube:
-  #   url: https://www.youtube.com/channel/UC8p8tlnY5fykNYv2vZHvQDg
-  #   label: YouTube Channel
-  #   class: bx bxl-youtube
+  youtube:
+    url: https://youtube.com/@dhanusir
+    label: YouTube Channel
+    class: bx bxl-youtube
 
 # Build settings
 markdown: kramdown
